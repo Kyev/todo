@@ -1,0 +1,169 @@
+body {
+    background-color: #EDEDED;
+    margin: 0;
+    font-family: "Georgia", "Times New Roman", sans-serif;
+}
+
+.wrapper{
+  margin: 2%;
+  padding: 1em 0;
+}
+
+header {
+    background-color: #EDEDED;
+}
+
+.panel-group {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.style-1 input[type="text"] {
+    padding: 5px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    border-radius: 10px;
+}
+.style-1 input[type="text"]:focus,
+.style-1 input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+input[type="text"] {
+  margin: 0;
+  width: 70%;
+  font-family: "Georgia", "Times New Roman", sans-serif;
+  font-size: 20px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
+
+
+#todolist li, #completedlist li {
+    font-size: 20px;
+    margin: 15px 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+#todolist li {
+    font-weight: bold;
+}
+
+#completedlist li {
+    text-decoration: line-through;
+}
+
+
+.button {
+    font-family: "Helvetica"; /* button font */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 10px; /*padding inside the button */
+    border-radius: 12px;
+    margin-right: 10px;
+    color: black;
+    border: 2px solid #008CBA;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    cursor: pointer;
+    outline: none;
+    float: right;
+}
+.button1 {
+    padding: 6px 32px;
+    margin-right: 25px;              /* ADD Button */
+    float: right;
+    background-color: white;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+}
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.button2 {                 /* COMPLETE Button */
+    left: -20px;
+    text-align: justify;
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.button2:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.button3 {                 /* DELETE Button */
+    left: 20px;
+    background-color: white;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+.button3:hover {
+    background-color: #ff0000;
+    color: white;
+}
+.button4 {                 /* UNDO Button */
+    float: right;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button4:hover {
+    background-color: #555555;
+    color: white;
+}
+.button5 {                 /* CLEAR TO-DO Button */
+    left: 20px;
+    background-color: white;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+}
+
+.button5:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.button6 {                 /* CLEAR COMPLETED Button */
+    left: 20px;
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+
+.button6:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.col-md-6, .col-md-12 {
+    padding: 10px;  /* padding above DIV */
+}
+
+    h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 50px;
+        color: #008CBA;
+        background-color: #cce6ff;
+        font-weight: normal; /* my TO DO LIST styling */
+    }
+
+    h3 {
+        text-align: center;
+        margin: 0;
+        font-size: 20px; /* my TO DO LIST styling */
+    }
+
+.wrapper {
+    background-color: #E6E6E6;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 20px; /* padding from the bottom of the wrapper */
+}

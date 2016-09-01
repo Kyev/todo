@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <!-- BOOTSTRAP Link -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        <!-- CSS Link -->
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <!-- JQUERY link -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- JQUERY UI link -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <!-- JAVA SCRIPT Link -->
+        <script type="text/javascript" src="scripts.js"></script>
+    </head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>My To Do List</h1>
+            <div class="clear"></div>
+        </div>
+    </header>
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 top">
+                        <div class="panel-group">
+                          <div class="panel panel-primary">
+                              <div class="panel-heading"><h3>DO THIS</h3></div>
+                              <div class="panel-body"><div class="input-list style-1 clearfix">
+                                  <input autofocus="autofocus" type="text" placeholder="add new to-do" id="new-text"/><button id="add" class="button button1">ADD</button>
+                              </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row persistent">
+                    <div class="col-md-6">
+                        <div class="col-md-12"  style="background-color: lightblue">
+                            <div class="panel-group">
+                              <div class="panel panel-info">
+                                <div class="panel-heading"><h2>TO-DO<button class="cleartodo button button5">Clear</button></h2></div>
+                                <div class="panel-body">
+                                    <ol id="todolist">
+                                        <li>Wake up<button class="delete button button3">&#10060</button><button class="complete button button2">&#10004</button></li>
+                                        <li>Eat breakfast<button class="delete button button3">&#10060</button><button class="complete button button2">&#10004</button></li>
+                                        <li>Do stuff<button class="delete button button3">&#10060</button><button class="complete button button2">&#10004</button></li>
+                                    </ol>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-12"  style="background-color: lightgreen">
+                          <div class="panel-group">
+                            <div class="panel panel-success">
+                              <div class="panel-heading"><h2>COMPLETED<button class="clearcompleted button button6">Clear</button></h2></div>
+                              <div class="panel-body">
+                                  <ol id="completedlist">
+                                      <li>Finsh homework<button class="delete button button3">&#10060</button><button class="undo button button4">Undo</button></li>
+                                      <li>Work out<button class="delete button button3">&#10060</button><button id="undo" class="undo button button4">Undo</button></li>
+                                      <li>Take a nap<button class="delete button button3">&#10060</button><button id="undo" class="undo button button4">Undo</button></li>
+                                  </ol>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
